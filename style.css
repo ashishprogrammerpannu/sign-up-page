@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+body {
+  background-color: rgb(105, 105, 105);
+  transition: all 300ms ease-in;
+}
+
+header h1 {
+  text-align: center;
+  margin: 20px auto;
+}
+
+.form {
+  width: 50%;
+  margin: 10px auto;
+  background-color: whitesmoke;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 2px 4px  rgb(0, 0, 0);
+}
+
+.input {
+  /* margin: 10px; */
+  flex: 1;
+  border: none;
+  border-bottom: 2px solid black ;
+  font-size: 14px;
+  font-style: italic;
+  overflow: hidden;
+}
+.input_name,
+.input_password,
+.input_email {
+  margin: 10px;
+  display: flex;
+}
+
+.btn {
+  margin: 10px;
+  display: flex;
+}
+
+.btn1 {
+  flex: 1;
+  text-decoration: none;
+  color: rgb(78, 78, 78);
+  font-size: 1.3rem;
+  font-weight: bold;
+  border: 2px solid rgb(78, 78, 78);
+  background-color: rgb(204, 204, 204);
+  text-align: center;
+}
+
+.input:focus{
+  border-bottom: 2px solid blue ;
+  place-content: '';
+  box-shadow: 1px 1px 3px 0px rgba(25, 81, 233, 0.5);
+}
+
+.btn1:hover{
+  opacity: 0.9;
+  color: rgb(17, 17, 17);
+}
+
+
+
+
+
+
+
+
+
+
+/* error detention */
