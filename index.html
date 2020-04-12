@@ -11,6 +11,7 @@
       <h1>Sign up</h1>
     </header>
     <div class="form">
+      <form netlify>
       <section class="input_name section_email">
         <label for="name">Name:</label>
         <input type="text" class="input" id="name" autocomplete="off" placeholder="Type your name" aria-valuetext="">
@@ -24,9 +25,10 @@
         <input type="password" class="input" id="password" autocomplete="off" required placeholder="Type your password.">
       </section>
       <section class="btn section_email">
-          <a href='#'  class="btn1" onclick="form()">Sign up</a>
+          <a href='#'  class="btn1" onclick="form()" type="submit">Sign up</a>
       </section>
     </div>
+      </form>
     <script src="app.js"></script>
   </body>
 </html>
